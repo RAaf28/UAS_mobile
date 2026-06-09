@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Pokedex Palette -->
+    <color name="pokedex_red">#DC0A2D</color>
+    <color name="pokedex_red_dark">#B00824</color>
+    <color name="pokedex_blue">#28AAFD</color>
+    <color name="pokedex_blue_light">#51BDFF</color>
+    <color name="pokedex_yellow">#EED535</color>
+    <color name="pokedex_green">#51AD60</color>
+    <color name="pokedex_gray">#333333</color>
+    <color name="pokedex_light_gray">#E0E0E0</color>
+    <color name="pokedex_bg">#F7F7F7</color>
 </resources>

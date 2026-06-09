@@ -1,39 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
+    android:background="@color/pokedex_red">
 
-    <!-- Gambar sync -->
-        <ImageView
-        android:id="@+id/iv_sync_image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@android:drawable/ic_popup_sync"
-        android:contentDescription="Gambar Sinkronisasi" />
+    <!-- The "Digital Screen" -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_lanjut"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/pokedex_light_gray">
 
-    <!-- Judul / Keterangan -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Memuat Data Server"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="24dp"
-        android:textColor="?attr/colorPrimary"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
 
-    <!-- Tombol Lanjut -->
+            <TextView
+                android:id="@+id/tv_sync_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="SYSTEM STARTUP..."
+                android:textColor="@color/pokedex_green"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sync_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="ACCESSING DATA NETWORK..."
+                android:textColor="@color/pokedex_green"
+                android:alpha="0.8"
+                android:textSize="12sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Action Button at Bottom -->
     <Button
         android:id="@+id/btn_lanjut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Menyinkronkan data..."
-        android:enabled="false"
-        android:padding="12dp"
-        android:backgroundTint="#6750A4"
-        android:textColor="@android:color/white"/>
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/pokedex_blue"
+        android:text="WAITING..."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textAllCaps="true"
+        android:enabled="false"/>
 
-</LinearLayout>
+</RelativeLayout>

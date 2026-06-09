@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
+        android:background="@color/pokedex_red"
         android:paddingHorizontal="8dp">
 
         <!-- Tombol Back -->
@@ -33,10 +32,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Daftar Favorit"
+            android:text="FAVORITE LIST"
             android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textAllCaps="true" />
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -45,6 +45,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/header_favorite"
         android:padding="8dp"
+        android:background="@color/pokedex_bg"
         android:clipToPadding="false"/>
 
 </RelativeLayout>

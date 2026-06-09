@@ -10,16 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentTop="true"
-        android:elevation="4dp"
         android:paddingHorizontal="8dp"
-        android:background="?attr/colorPrimary">
+        android:background="@color/pokedex_red">
 
         <ImageButton
             android:id="@+id/ivDetailBack"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_centerVertical="true"
-            android:layout_alignParentStart="true"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Kembali"
             android:src="@drawable/ic_arrow_back"
@@ -30,15 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_toEndOf="@id/ivDetailBack"
-            android:layout_toStartOf="@id/ivDetailFavorite"
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="Detail Endemik"
+            android:text="DATA ENDEMIK"
             android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textAllCaps="true" />
 
         <ImageButton
             android:id="@+id/ivDetailFavorite"
@@ -56,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/header_detail"
+        android:background="@color/pokedex_red"
         android:clipToPadding="false"
         android:scrollbars="none">
 
@@ -68,42 +66,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:layout_margin="16dp"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp">
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white">
 
                 <ImageView
                     android:id="@+id/ivDetailFoto"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
+                    android:scaleType="centerInside"
+                    android:padding="16dp"
                     android:src="@android:drawable/ic_menu_gallery" />
             </androidx.cardview.widget.CardView>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded_top"
-                android:elevation="2dp"
+                android:background="@drawable/bg_pokedex_detail"
+                android:minHeight="400dp"
                 android:orientation="vertical"
                 android:padding="24dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Deskripsi"
-                    android:textColor="?android:attr/textColorPrimary"
-                    android:textSize="20sp"
+                    android:text="ABOUT"
+                    android:textColor="@color/pokedex_red"
+                    android:textSize="18sp"
                     android:textStyle="bold"
-                    android:layout_marginBottom="12dp"/>
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"/>
 
                 <TextView
                     android:id="@+id/tvDetailDeskripsi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:lineSpacingExtra="8dp"
+                    android:lineSpacingExtra="6dp"
                     android:text="Deskripsi lengkap akan muncul di sini..."
-                    android:textColor="?android:attr/textColorSecondary"
-                    android:textSize="16sp" />
+                    android:textColor="@color/pokedex_gray"
+                    android:textSize="15sp"
+                    android:gravity="center" />
 
                 <View
                     android:layout_width="match_parent"

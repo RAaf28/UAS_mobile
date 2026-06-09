@@ -2,7 +2,15 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.UAS" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/pokedex_red</item>
+        <item name="colorPrimaryVariant">@color/pokedex_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary color for accents like the blue button -->
+        <item name="colorSecondary">@color/pokedex_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowBackground">@color/pokedex_bg</item>
+        <item name="android:statusBarColor">@color/pokedex_red_dark</item>
     </style>
 
     <style name="Theme.UAS" parent="Base.Theme.UAS" />
