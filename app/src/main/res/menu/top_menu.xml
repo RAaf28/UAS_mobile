@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Cari"
+        app:showAsAction="always" />
+
+    <!-- Ikon untuk Toggle Tema (Light/Dark) -->
+    <item
+        android:id="@+id/action_theme"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Tema"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About"
+        app:showAsAction="always" />
+
+    <!-- Menggunakan ikon putih agar serasi dengan toolbar -->
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_white"
+        android:title="Favorit"
+        app:showAsAction="always" />
+
+
+</menu>

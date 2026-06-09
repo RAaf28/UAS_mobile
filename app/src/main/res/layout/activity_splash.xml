@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tv_title_ketentuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ketentuan:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+    <!-- Teks Ketentuan -->
+    <TextView
+        android:id="@+id/tv_isi_ketentuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_ketentuan"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:text="• Menambahkan tema (dark dan light mode) dan region\n• Terdiri dari Activity: Splash, Home, Pencarian, Detail, Favorit (ROOM)\n• Memiliki 2 tabel; endemik dan favorit\n\n(Dan ketentuan lainnya...)\n\n• Terdapat foto dan nama kamu\n• Dikumpulkan berupa tautan github\n• Kirim melalui email" />
+
+    <!-- Tombol Lanjut -->
+    <Button
+        android:id="@+id/btn_mengerti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_isi_ketentuan"
+        android:layout_marginTop="32dp"
+        android:text="Saya mengerti"
+        android:textAllCaps="false"
+        android:backgroundTint="#6750A4"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
