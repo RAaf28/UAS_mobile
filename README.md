@@ -37,17 +37,17 @@ Aplikasi ini mengadopsi palet warna Pokédex:
 
 ## Layar
 <p align="center">
-  <img src="screenshots/Screenshot_20260622_093429.png" width="30%" />
-  <img src="screenshots/Screenshot_20260622_093620.png" width="30%" />
-  <img src="screenshots/Screenshot_20260622_093645.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093429.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093620.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093645.png" width="30%" />
 </p>
 <p align="center">
-  <img src="screenshots/Screenshot_20260622_093708.png" width="30%" />
-  <img src="screenshots/Screenshot_20260622_093748.png" width="30%" />
-  <img src="screenshots/Screenshot_20260622_093803.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093708.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093748.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093803.png" width="30%" />
 </p>
 <p align="center">
-  <img src="screenshots/Screenshot_20260622_093832.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_093832.png" width="30%" />
 </p>
 
 ---
