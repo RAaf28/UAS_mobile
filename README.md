@@ -48,6 +48,8 @@ Aplikasi ini mengadopsi palet warna Pokédex:
 </p>
 <p align="center">
   <img src="app/src/main/res/drawable/Screenshot_20260622_093832.png" width="30%" />
+  <img src="app/src/main/res/drawable/Screenshot_20260622_101827.png" width="30%" />
+
 </p>
 
 ---
