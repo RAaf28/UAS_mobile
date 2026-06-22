@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="DEVELOPER INFO"
+            android:text="ABOUT"
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -102,22 +102,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="SYSTEMS INFORMATION STUDENT\nUPN 'VETERAN' JAKARTA\nSEMESTER 4 - POKÉ-DEX PROJECT"
+                    android:text="SYSTEMS INFORMATION STUDENT\nUPN 'VETERAN' JAKARTA\nSEMESTER 4 - POKÉ-Endemik PROJECT"
                     android:textColor="@color/pokedex_gray"
                     android:textSize="14sp"
                     android:lineSpacingExtra="6dp"
                     android:textStyle="bold" />
 
-                <!-- Pokemon Style Button Accents -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginTop="32dp">
-                    <View android:layout_width="15dp" android:layout_height="15dp" android:background="@color/pokedex_blue" android:layout_margin="5dp" />
-                    <View android:layout_width="15dp" android:layout_height="15dp" android:background="@color/pokedex_green" android:layout_margin="5dp" />
-                    <View android:layout_width="15dp" android:layout_height="15dp" android:background="@color/pokedex_yellow" android:layout_margin="5dp" />
-                </LinearLayout>
+                    </LinearLayout>
 
             </LinearLayout>
         </LinearLayout>

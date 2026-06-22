@@ -35,5 +35,20 @@ Aplikasi ini mengadopsi palet warna Pokédex:
 - **Clean White & Light Gray:** Memberikan kesan modern dan bersih pada area konten.
 - **Typography:** Menggunakan kapitalisasi (All-Caps) pada judul untuk memperkuat kesan perangkat digital.
 
+## Layar
+<p align="center">
+  <img src="screenshots/Screenshot_20260622_093429.png" width="30%" />
+  <img src="screenshots/Screenshot_20260622_093620.png" width="30%" />
+  <img src="screenshots/Screenshot_20260622_093645.png" width="30%" />
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot_20260622_093708.png" width="30%" />
+  <img src="screenshots/Screenshot_20260622_093748.png" width="30%" />
+  <img src="screenshots/Screenshot_20260622_093803.png" width="30%" />
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot_20260622_093832.png" width="30%" />
+</p>
+
 ---
 © 2024 Rafly Enggar Tiarso - UAS Project.
